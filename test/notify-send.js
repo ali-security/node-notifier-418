@@ -36,7 +36,7 @@ describe('notify-send', function() {
 
     expectArgsListToBe(expected, done);
     var notifier = new Notify({ suppressOsdCheck: true });
-    notifier.notify({ message: 'body' });  
+    notifier.notify({ message: 'body' });
   });
 
   it('should throw error if no message is passed', function(done) {
